@@ -9,7 +9,17 @@ public class SeaCreatureRunner {
 spongebob.eat();
 spongebob.laugh();
 
+	SeaCreature patrick = new SeaCreature("Patrick");
 
+patrick.say();
+patrick.eat();
+patrick.laugh();
+
+	SeaCreature squidward = new SeaCreature("SquidWard");
+	
+squidward.say();
+squidward.eat();
+squidward.laugh();
 
 
 

@@ -22,7 +22,9 @@ public class SeaCreature {
 	public String getName() {
 		return "My name is " + name;
 	}
-
+	public void say( ) {
+		System.out.println(getName());
+	}
 	public void eat() {
 		System.out.println(name + " is eating krabby patties");
 	}
